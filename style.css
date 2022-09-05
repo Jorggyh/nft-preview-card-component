@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Outfit:wght@300;400;600&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-size: 62.5%; /* 10px = 1rem */
+}
+
+:root {
+	--soft-blue: hsl(215, 51%, 70%);
+	--cyan: hsl(178, 100%, 50%);
+	--cyan-little-transparent: rgba(0, 255, 247, 0.6);
+	--dark-body-bg: hsl(217, 54%, 11%);
+	--dark-card-bg: hsl(216, 50%, 16%);
+	--dark-line: hsl(215, 32%, 27%);
+	--white: hsl(0, 0%, 100%);
+}
+
+body {
+	font-family: Outfit, sans-serif;
+	background-color: var(--dark-body-bg);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+}
+
+main {
+	width: 32.7rem;
+	height: 54.3rem;
+	padding: 2.5rem;
+	background-color: var(--dark-card-bg);
+	border-radius: 1rem;
+}
+
+.overlay {
+	position: absolute;
+	background-color: var(--cyan-little-transparent);
+	width: 27.8rem;
+	height: 27.8rem;
+	border-radius: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0;
+	transition: 0.15s ease-in-out;
+}
+
+.overlay img {
+	height: 4rem;
+	width: 4rem;
+}
+
+img {
+	width: 100%;
+	border-radius: 1rem;
+}
+
+.overlay:hover {
+	cursor: pointer;
+	opacity: 1;
+}
+
+h2 {
+	font-size: 2.2rem;
+	font-weight: 600;
+	color: var(--white);
+	margin: 2.1rem 0 1.2rem;
+	width: fit-content;
+	transition: 0.1s ease-in-out;
+}
+
+p {
+	font-size: 1.6rem;
+	line-height: 2.6rem;
+	font-weight: 300;
+	color: var(--soft-blue);
+	user-select: none;
+}
+
+.price-time {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 0.1rem solid var(--dark-line);
+	padding: 1.2rem 0 1.3rem;
+}
+
+.price-time img {
+	width: auto;
+	height: 1.8rem;
+}
+
+.price,
+.time {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+h3 {
+	font-size: 1.6rem;
+	font-weight: 400;
+	color: var(--cyan);
+	user-select: none;
+}
+
+strong {
+	font-size: 1.6rem;
+	font-weight: 300;
+	color: var(--white);
+	transition: 0.1s ease-in-out;
+}
+
+h2:hover,
+strong:hover {
+	cursor: pointer;
+	color: var(--cyan);
+}
+
+.creation {
+	padding-top: 1.7rem;
+	display: flex;
+	align-items: center;
+}
+
+.creation::before {
+	content: '';
+	background: center center/cover url('img/image-avatar.png');
+	height: 2.9rem;
+	width: 2.9rem;
+	border: 0.15rem solid var(--white);
+	border-radius: 50%;
+	margin-right: 1.5rem;
+}
