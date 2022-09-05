@@ -32,7 +32,7 @@ main {
 	padding: 2.5rem;
 	background-color: var(--dark-card-bg);
 	border-radius: 1.5rem;
-	box-shadow: 0 26px 25px -20px #0c1729;
+	box-shadow: 0 26px 25px -20px #0c1729, 0 20px 50px -20px #0c1a2f;
 }
 
 .overlay {
@@ -107,12 +107,12 @@ h2 {
 }
 
 .time p {
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	font-weight: 400;
 }
 
 strong {
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	font-weight: 400;
 	color: var(--white);
 	transition: 0.1s ease-in-out;
@@ -125,9 +125,9 @@ strong:hover {
 }
 
 .creation {
-	font-size: 1.6rem;
+	font-size: 1.7rem;
 	font-weight: 400;
-	padding-top: 1.5rem;
+	padding-top: 1.4rem;
 	display: flex;
 	align-items: center;
 }
