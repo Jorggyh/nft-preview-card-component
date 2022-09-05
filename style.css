@@ -117,7 +117,7 @@ strong {
 	transition: 0.1s ease-in-out;
 }
 
-h2:hover,
+h1:hover,
 strong:hover {
 	cursor: pointer;
 	color: var(--cyan);
