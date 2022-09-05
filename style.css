@@ -31,8 +31,8 @@ main {
 	height: 59rem;
 	padding: 2.5rem;
 	background-color: var(--dark-card-bg);
-	border-radius: 1rem;
-	box-shadow: 0 26px 25px -20px #0c1729, 0 25px 45px -5px #0c1a2f;
+	border-radius: 1.5rem;
+	box-shadow: 0 25px 45px -5px #0c1a2f;
 }
 
 .overlay {
@@ -108,11 +108,12 @@ h3 {
 
 .time p {
 	font-size: 1.6rem;
+	font-weight: 400;
 }
 
 strong {
 	font-size: 1.6rem;
-	font-weight: 300;
+	font-weight: 400;
 	color: var(--white);
 	transition: 0.1s ease-in-out;
 }
@@ -125,7 +126,8 @@ strong:hover {
 
 .creation {
 	font-size: 1.6rem;
-	padding-top: 1.7rem;
+	font-weight: 400;
+	padding-top: 1.6rem;
 	display: flex;
 	align-items: center;
 }
@@ -133,8 +135,8 @@ strong:hover {
 .creation::before {
 	content: '';
 	background: center center/cover url('img/image-avatar.png');
-	height: 3rem;
-	width: 3rem;
+	height: 3.1rem;
+	width: 3.1rem;
 	border: 0.1rem solid var(--white);
 	border-radius: 50%;
 	margin-right: 1.5rem;
