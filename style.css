@@ -32,7 +32,7 @@ main {
 	padding: 2.5rem;
 	background-color: var(--dark-card-bg);
 	border-radius: 1.5rem;
-	box-shadow: 0 26px 25px -20px #0c1729, 0 20px 50px -20px #0c1a2f;
+	box-shadow: 0 26px 25px -20px #0c1729, 0 26px 25px -20px #0c1729, 0 25px 60px -20px #0c1729;
 }
 
 .overlay {
@@ -87,9 +87,15 @@ p {
 	padding: 2rem 0 2.2rem;
 }
 
-.price-time img {
+.price img {
 	width: auto;
 	height: 1.8rem;
+}
+
+.time img {
+	width: auto;
+	height: 1.7rem;
+	margin-top: 0.1rem;
 }
 
 .price,
@@ -107,12 +113,12 @@ h2 {
 }
 
 .time p {
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 }
 
 strong {
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	color: var(--white);
 	transition: 0.1s ease-in-out;
@@ -125,7 +131,7 @@ strong:hover {
 }
 
 .creation {
-	font-size: 1.7rem;
+	font-size: 1.6rem;
 	font-weight: 400;
 	padding-top: 1.4rem;
 	display: flex;
