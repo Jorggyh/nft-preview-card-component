@@ -12,6 +12,7 @@ the [NFT preview card component challenge on Frontend Mentor](https://www.fronte
     - [Links](#links)
 - [My process](#my-process)
     - [Built with](#built-with)
+    - [What I learned](#what-i-learned)
 - [Author](#author)
 
 ## Overview
