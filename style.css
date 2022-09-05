@@ -32,7 +32,7 @@ main {
 	padding: 2.5rem;
 	background-color: var(--dark-card-bg);
 	border-radius: 1.5rem;
-	box-shadow: 0 26px 25px -20px #0c1729, 0 26px 25px -20px #0c1729, 0 25px 60px -20px #0c1729;
+	box-shadow: 0 30px 30px -25px #0c1729, 0 30px 30px -25px #0c1729, 0 25px 60px -20px #0c1729;
 }
 
 .overlay {
