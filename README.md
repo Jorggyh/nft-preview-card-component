@@ -1,7 +1,7 @@
-# Frontend Mentor - Product preview card component solution
+# Frontend Mentor - NFT preview card component solution
 
 This is a solution to
-the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa)
+the [NFT preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/nft-preview-card-component-SbdUL_w0U)
 . Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
@@ -25,13 +25,16 @@ Users should be able to:
 
 ### Screenshot
 
-![](/img/screenshot.png)
+| Mobile                    | Hover effect              |
+|---------------------------|---------------------------|
+| ![](/img/screenshot1.png) | ![](/img/screenshot2.png) |
 
 ### Links
 
 - Solution
-  URL: [https://www.frontendmentor.io/solutions/good-to-practice-C44rQOViCC](https://www.frontendmentor.io/solutions/good-to-practice-C44rQOViCC)
-- Live Site URL: [https://jorggyh.github.io/product-preview-card-component/](https://jorggyh.github.io/product-preview-card-component/)
+  URL: []()
+- Live Site
+  URL: [https://jorggyh.github.io/nft-preview-card-component/](https://jorggyh.github.io/nft-preview-card-component/)
 
 ## My process
 
@@ -47,7 +50,11 @@ the `before` pseudo-element.
 - Semantic HTML5
 - CSS
 - Flexbox
-- Mobile-first workflow
+
+### What I learned
+
+This effect of hovering the mouse over the image, and an icon appears with a half-transparent background color was new
+to me, I had never done it before, it was interesting to find out how to do it.
 
 ## Author
 
