@@ -33,18 +33,11 @@ Users should be able to:
 ### Links
 
 - Solution
-  URL: []()
+  URL: [https://www.frontendmentor.io/solutions/maximum-effort-oeh01U4f3r](https://www.frontendmentor.io/solutions/maximum-effort-oeh01U4f3r)
 - Live Site
   URL: [https://jorggyh.github.io/nft-preview-card-component/](https://jorggyh.github.io/nft-preview-card-component/)
 
 ## My process
-
-I started developing the mobile part, then I just adjusted it to desktop using media query, I realized that I could deal
-with images in two ways, using two different images in HTML with the `picture` tag or in CSS as background, I chose
-the second option.
-
-The same can be said of the shopping cart image inside the button, I put it with CSS, using
-the `before` pseudo-element.
 
 ### Built with
 
